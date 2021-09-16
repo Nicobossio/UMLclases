@@ -34,6 +34,7 @@ namespace UMLclases
             string direccion;
             string ciudad;
             int telefono;
+            string TipodePersona;
 
 
 
