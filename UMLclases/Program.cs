@@ -22,8 +22,21 @@ namespace UMLclases
             string primerapellido;
             string segundoapellido;
             string nombres;
-            int cedulaciudadania;
-            int NIT
+            bool cedulaciudadania;
+            bool NIT;
+            bool NN;
+            bool pasaporte;
+            bool cextrajera;
+            bool tarjetaidentidad;
+            bool nuip;
+            bool diplomatico;
+            int nodocumento;
+            string direccion;
+            string ciudad;
+            int telefono;
+
+
+
 
         }
 
@@ -35,5 +48,23 @@ namespace UMLclases
             string TipodeEmpresa;
 
         }
+
+        public class Tramite 
+        {
+            int id;
+            string tipodeservicio;
+            string TipoDetramite;
+            Persona Propietario;
+            Persona Comprador;
+            Empresa empresa;
+            string TipoDePago;
+            int ValorTramite;
+            string Ciudad;
+            Vehiculo vehiculo;
+
+            public void hacerTramite() { }
+        }
+
+
     }
 }
